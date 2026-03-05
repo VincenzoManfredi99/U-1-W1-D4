@@ -78,7 +78,7 @@ article {
     border: 1px solid  #d2bcc5;
 }
 
-article> h1 {
+article> h1, button {
     text-align: center;
 }
 
@@ -131,8 +131,8 @@ footer> p> a {
 table {
     border-bottom: 3px solid  #3367cd;
     padding: 1.5em;
-;
-
+    text-align: center;
+    margin: 0.5em auto;
 }
 
 th {
@@ -154,4 +154,8 @@ caption {
     font-weight: 700;
     font-style: italic;
     margin: 0.3em;
+}
+
+form {
+    text-align: center;
 }
