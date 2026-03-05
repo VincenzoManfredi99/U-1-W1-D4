@@ -72,14 +72,14 @@ iframe {
 
 article {
     background-color: #e5e0e2;
-    text-align: center;
+    text-align: start;
     padding: 1em;
     margin: 1em 0;
     border: 1px solid  #d2bcc5;
 }
 
-article> p {
-    text-align: start;
+article> h1 {
+    text-align: center;
 }
 
 article> h1 {
