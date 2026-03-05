@@ -1,0 +1,121 @@
+/* IMPOSTAZIONI GENERALI */
+
+
+
+body {
+    width: 40%;
+    margin: 0 auto;
+    background-image: url(./Assets/sfondo.png);
+    position: 100%;
+}
+/* HEADER */
+header {
+    background: linear-gradient(45deg, #176687, #01a7ca);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 1px 3px 5px rgb(58, 58, 58);
+    margin: 1em 0;
+    padding-bottom: 0.2em;
+}
+
+header img {
+    width: 70%;
+    padding: 1em;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+ul {
+    margin: 1em;
+    list-style-type: disc;
+}
+
+ol {
+    margin: 1em;
+    list-style-type: decimal;
+}
+
+main {
+    background-color: white;
+    padding: 1em;
+    box-shadow: 1px 5px 6px rgb(68, 68, 68);
+}
+
+p {
+    margin: 1em 0;
+}
+
+p> span {
+    color: #a4206d;
+    font-weight: 1000;
+}
+
+li {
+    margin: 0.5em 0;
+    margin-left: 2em;
+}
+
+main> p> a {
+    color: #059dbf;
+    font-weight: 700;
+}
+
+iframe {
+    border-radius: 10px;
+    margin: 1em 0;
+}
+
+article {
+    background-color: #e5e0e2;
+    text-align: center;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid  #d2bcc5;
+}
+
+article> p {
+    text-align: start;
+}
+
+article> h1 {
+    margin: 0;
+}
+
+article> anchor {
+    text-align: start;
+}
+
+footer {
+    background: linear-gradient(180deg, #017088, black);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 1px 3px 5px rgb(58, 58, 58);
+    margin: 0.5em 0;
+    padding: 0.4em;
+}
+
+footer> p {
+    padding: 0.3em;
+    margin: 0.1em;
+    font-size: 0.5em;
+}
+
+footer> p> a {
+    color: #ff02fe;
+}
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
