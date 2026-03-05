@@ -1,14 +1,10 @@
-/* IMPOSTAZIONI GENERALI */
-
-
-
 body {
     width: 40%;
     margin: 0 auto;
     background-image: url(./Assets/sfondo.png);
     position: 100%;
 }
-/* HEADER */
+
 header {
     background: linear-gradient(45deg, #176687, #01a7ca);
     color: white;
@@ -28,13 +24,20 @@ header ul {
     list-style-type: none;
 }
 
-ul {
-    margin: 1em;
-    list-style-type: disc;
+ul> li> p> a {
+    text-decoration: none;
+    color: white;
 }
 
-ol {
+main> ul {
     margin: 1em;
+    list-style-type: disc;
+    margin-left: 3em;
+}
+
+main> ol {
+    margin: 1em;
+    margin-left: 3em;
     list-style-type: decimal;
 }
 
@@ -53,7 +56,7 @@ p> span {
     font-weight: 1000;
 }
 
-li {
+main> li {
     margin: 0.5em 0;
     margin-left: 2em;
 }
@@ -84,10 +87,6 @@ article> h1 {
     margin: 0;
 }
 
-article> anchor {
-    text-align: start;
-}
-
 footer {
     background: linear-gradient(180deg, #017088, black);
     color: white;
@@ -108,14 +107,24 @@ footer> p> a {
     color: #ff02fe;
 }
 
-/* MAIN */
+.inline {
+    display: inline;
+}
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+.grey {
+    color: rgb(164, 164, 164);
+}
 
-/* TABELLE */
+.tag {
+    display: inline;
+    text-align: start;
+}
 
-/* FORM */
+.calendar {
+    display: inline;
+}
 
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
+.data {
+    text-align: end;
+    padding: 1em 0;
+}
